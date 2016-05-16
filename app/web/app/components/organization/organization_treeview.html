@@ -1,0 +1,18 @@
+<ul>
+    <li *ngFor="#org of organizations"   data-context-menu="organization-context-menu.html" ng-model="message">
+        <span class="iconButton">{{org.getIcon()}}
+        <!--<input type="checkbox" [checked]="org.checked" (click)="org.check()"/>-->
+        </span>
+        <span organization_context_menu  (click)="org.toggle()"> {{org.name}}</span>
+
+        <button type="button" class="btn btn-secondary-outline btn-sm"  data-toggle="modal" data-target="#organizationEditModal">Edit</button>
+        <organization_edit [orgname]="org.name" [org]="org" [organizations]="organizations" [getOdinData]="getOdinData" >Loading organization_edit ...</organization_edit>
+
+        <div *ngIf="org.expanded">
+            <!--<ul>
+                <li *ngFor="#orgc of org.organizations">{{orgc.name}}</li>
+            </ul>-->
+            <organization_treeview [organizations]="org.organizations"></organization_treeview>
+        </div>
+    </li>
+</ul>

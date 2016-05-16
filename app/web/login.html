@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[ Title ]</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.css"/>
+    <link rel="stylesheet" href="assets/app.css"/>
+  </head>
+
+  <body class="login">
+
+    <div class="static-splash-overlay">
+
+      <div class="static-splash-table">
+        <div class="static-splash-cell">
+          <div class="static-splash-container jumbotron centered">
+            <h1>
+              <span lang="fr">uOttawa</span>
+              <span lang="en">uOttawa</span>
+            </h1>
+            <img src="./img/facMed-hor-white.svg" alt="uOttawa Faculty of Medicine, ">
+
+    
+           <form class="form-signin" (submit)="login($event, username.value, password.value)">
+              <h2 class="form-signin-heading">[ Department Name ]</h2>
+              <label for="username" class="sr-only">Username</label>
+              <input type="text" #username id="username" class="form-control" placeholder="Email address [ Required ]" required="" autofocus="">
+              <label for="password" class="sr-only">Password</label>
+              <input type="password" #password id="password" class="form-control" placeholder="Password [ Required ]" required="">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+               <button class="btn col-xs-6" type="submit">Sign in <span class="fa fa-sign-in"></span> </button>
+              <span class="signUp col-xs-6">Don't have a uOttawa email? <a href="#" role="link">Sign up for free.</a></span>
+            </form>
+              
+
+      
+           
+          </div>
+        </div>
+      </div>
+
+        
+    <div id="uottawa-global-footer-swoosh" class="navbar-fixed-bottom">
+
+      <div id="uottawa-global-footer-swoosh-left-bg"></div>
+
+        <div class="uol--page-container">
+          <div id="uottawa-global-footer-swoosh-left"></div>
+            <div id="uottawa-global-footer-swoosh-right"></div>
+          </div>
+
+      <div id="uottawa-global-footer-swoosh-right-bg"></div>
+    </div>
+
+    </div>
+
+  
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Organization Type</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 0. Css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css"> -->
+
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.css"/>
+    <link rel="stylesheet" href="assets/app.css"/>
+
+     <!--<style type="text/css">-->
+        <!--/**-->
+         <!--* Hide when Angular is not yet loaded and initialized-->
+         <!--*/-->
+        <!--[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {-->
+          <!--display: none !important;-->
+        <!--}-->
+    <!--</style>-->
+
+
+
+
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+
+
+    <!-- 2. Configure SystemJS -->
+
+
+
+
+</head>
+
+<body>
+ <!--<body ng-app="starterApp" layout="row" ng-controller="UserController as ul" ng-cloak >-->
+<!--<body ng-app="starterApp" layout="column">-->
+
+<!--<md-toolbar layout="row" >-->
+
+      <!--<md-button id="main" class="menu"  ng-click="ul.toggleList()" aria-label="Show User List">-->
+        <!--<md-icon md-svg-icon="menu" ></md-icon>-->
+      <!--</md-button>-->
+
+
+      <!--<h1>Angular2+Bootstrap+Material Sample App</h1>-->
+   <!--</md-toolbar>-->
+
+  <!--<div flex layout="row"  >-->
+
+
+    <!--<md-content flex id="content">-->
+
+<!--<div ng-app="MyApp" ng-controller="AppCtrl" class="md-padding dialogdemoBasicUsage" id="popupContainer" >-->
+  <!--<p class="inset">-->
+  <!--</p>-->
+
+  <!--<div class="dialog-demo-content" layout="row" layout-wrap="" layout-margin="" layout-align="center">-->
+      <!--<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#organizationTypeEditModal">Edit Organization Type</button>-->
+      <!--<button type="button" class="btn btn-success" data-toggle="modal" data-target="#organizationEditModal">Edit Organization</button>-->
+    <!--</div>-->
+<!--</div>-->
+    <!--</md-content>-->
+
+<!--</div>-->
+
+
+
+
+ 	<!-- <organization_view>Loading organization_view ...</organization_view> -->
+
+
+<tss-app>Loading</tss-app>
+
+
+
+    <!-- <script src="node_modules/es6-shim/es6-shim.min.js"></script> -->
+    <!-- <script src="node_modules/systemjs/dist/system-polyfills.js"></script> -->
+    <!-- <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script> -->
+    <!-- <script src="node_modules/systemjs/dist/system.src.js"></script> -->
+    <!-- <script src="node_modules/rxjs/bundles/Rx.js"></script> -->
+    <!-- <script src="node_modules/angular2/bundles/angular2.dev.js"></script> -->
+    <!-- <script src="node_modules/angular2/bundles/router.dev.js"></script> -->
+    <!-- <script src="node_modules/angular2/bundles/http.dev.js"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap --> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script> -->
+    <!--<script src="https://jspm.io/system@0.18.17.js"></script>-->
+
+    <script type="text/javascript" src="node_modules/underscore/underscore.js"></script>
+    <!--<script type="text/javascript" src="assets/script.js"--> <!-- crashes it for some reason -->
+    <script src="node_modules/breeze-client/adapters/breeze.bridge.angular.js"></script>
+
+
+<!--       <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('./app/tss_app') // main.odin bootstraps in the OrganizationView
+                .then(null, console.error.bind(console));
+
+    </script>
+ -->
+
+<!--The following are needed for material design since it works with angular 1 at this time-->
+    <!--<script src="node_modules/angular/angular.js"></script>-->
+    <!--<script src="node_modules/angular-animate/angular-animate.js"></script>-->
+    <!--<script src="node_modules/angular-aria/angular-aria.js"></script>-->
+    <!--<script src="node_modules/angular-material/angular-material.js" type="text/javascript"></script>-->
+    <!--<script type="text/javascript">-->
+
+          <!--angular-->
+              <!--.module('starterApp', ['ngMaterial'])-->
+              <!--.config(function($mdThemingProvider, $mdIconProvider){-->
+
+                  <!--$mdIconProvider-->
+                      <!--.defaultIconSet("./assets/svg/avatars.svg", 128)-->
+                      <!--.icon("menu"       , "./assets/svg/menu.svg"        , 24)-->
+                      <!--.icon("share"      , "./assets/svg/share.svg"       , 24)-->
+                      <!--.icon("google_plus", "./assets/svg/google_plus.svg" , 512)-->
+                      <!--.icon("hangouts"   , "./assets/svg/hangouts.svg"    , 512)-->
+                      <!--.icon("twitter"    , "./assets/svg/twitter.svg"     , 512)-->
+                      <!--.icon("phone"      , "./assets/svg/phone.svg"       , 512);-->
+
+                      <!--$mdThemingProvider.theme('default')-->
+                          <!--.primaryPalette('brown')-->
+                          <!--.accentPalette('red');-->
+
+              <!--})-->
+          <!--;-->
+
+    <!--</script>-->
+
+   <tss-app>
+      <i class="center-fix main-spinner fa fa-spin fa-spinner"></i>
+    </tss-app>
+
+    <!-- build:js assets/bundle.js -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+
+    <!-- 1. Load libraries -->
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:remove -->
+    <script src="systemjs.conf.js"></script>
+    <!-- endbuild -->
+
+    <script>
+      System.import('app/tss.js')
+        .catch(function(err) { console.error(err); });
+    </script>
+
+</body>
+</html>

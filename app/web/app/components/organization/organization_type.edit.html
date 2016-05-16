@@ -1,0 +1,10 @@
+
+  <label for="txtType" class="">Organization Type</label>
+  <input [(ngModel)]="name" type="text" id="txtType" class="" placeholder="Organization Type" required="" autofocus="" />
+  <label for="selLang">Language</label>
+<select id="selLang" [{ngModel}]="lang">
+    <option value="english">English</option>
+    <option value="french">French</option>
+</select>
+	<button  class="btn btn-success" (click)="post()" type="submit">Save</button>
+<p style="width: 300px"><strong>The result after Post </strong>: {{post}}</p>

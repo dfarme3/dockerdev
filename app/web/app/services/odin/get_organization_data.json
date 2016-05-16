@@ -1,0 +1,14 @@
+{ "lang": "EN", "types_id": 1, "is_active": true, "parent_id": 1, "date_created": "2016-03-30T13:44:52.405921", "id": 1, "full_path": "full_path", "name": "Organization_names" },
+{ "lang": "FR", "types_id": 1, "is_active": true, "parent_id": 1, "date_created": "2016-03-30T13:44:52.405921", "id": 1, "full_path": "plein_chemin", "name": "Organisation_noms" },
+{ "lang": "EN", "types_id": 2, "is_active": true, "parent_id": 1, "date_created": "2016-03-30T13:44:52.405921", "id": 2, "full_path": "full_path", "name": "Sun" },
+{ "lang": "FR", "types_id": 2, "is_active": true, "parent_id": 1, "date_created": "2016-03-30T13:44:52.405921", "id": 2, "full_path": "plein_chemin", "name": "Soleil" },
+{ "lang": "EN", "types_id": 2, "is_active": true, "parent_id": 1, "date_created": "2016-03-30T13:44:52.405921", "id": 4, "full_path": "full_path", "name": "Star" },
+{ "lang": "FR", "types_id": 2, "is_active": true, "parent_id": 1, "date_created": "2016-03-30T13:44:52.405921", "id": 4, "full_path": "plein_chemin", "name": "Etoile" },
+
+{ "lang": "EN", "types_id": 1, "is_active": true, "parent_id": 2, "date_created": "2016-03-30T13:44:52.405921", "id": 3, "full_path": "full_path", "name": "Moon" },
+{ "lang": "FR", "types_id": 1, "is_active": true, "parent_id": 2, "date_created": "2016-03-30T13:44:52.405921", "id": 3, "full_path": "plein_chemin", "name": "Lune" },
+{ "lang": "EN", "types_id": 1, "is_active": true, "parent_id": 2, "date_created": "2016-03-30T13:44:52.405921", "id": 5, "full_path": "full_path", "name": "Earth" },
+{ "lang": "FR", "types_id": 1, "is_active": true, "parent_id": 2, "date_created": "2016-03-30T13:44:52.405921", "id": 5, "full_path": "plein_chemin", "name": "Terre" },
+
+{ "lang": "EN", "types_id": 1, "is_active": true, "parent_id": 2, "date_created": "2016-03-30T13:44:52.405921", "id": 6, "full_path": "full_path", "name": "Mars" },
+{ "lang": "EN", "types_id": 1, "is_active": true, "parent_id": 2, "date_created": "2016-03-30T13:44:52.405921", "id": 7, "full_path": "full_path", "name": "Venus" },
